@@ -82,7 +82,7 @@ export default function App() {
               <p>{note.description}</p>
               <button onClick={() => deleteNote(note)}>Delete note</button>
               {
-                note.image && <img src={note.image} style={{width: 400}} />
+                note.image && <img src={note.image} style={{width: 100}} />
               }
             </div>
           ))
@@ -90,7 +90,7 @@ export default function App() {
       </div>
       <button onClick={signOut} className="amplify-button" data-variation="primary" type="submit">Sign out</button>
     </div>
-  )}
+    )}
     </Authenticator>
   );
 }

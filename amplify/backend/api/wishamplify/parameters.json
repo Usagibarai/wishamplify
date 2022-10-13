@@ -1,6 +1,5 @@
 {
   "AppSyncApiName": "wishamplify",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false,
-  "AuthModeLastUpdated": "2022-10-04T06:53:11.519Z"
+  "DynamoDBEnableServerSideEncryption": false
 }

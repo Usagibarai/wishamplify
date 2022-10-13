@@ -1,6 +1,6 @@
 {
   "auth": {
-    "wishamplify0db7d8fc": {
+    "wishamplifyf16ccedf": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -35,9 +35,7 @@
           "defaultAuthentication": {
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 7,
-              "apiKeyExpirationDate": "2022-10-11T06:59:22.009Z",
-              "description": "demo"
+              "apiKeyExpirationDays": 7
             }
           },
           "additionalAuthenticationProviders": []
@@ -46,7 +44,7 @@
     }
   },
   "storage": {
-    "s37fdd035f": {
+    "imagestorage": {
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "dependsOn": []

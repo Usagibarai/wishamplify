@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "auth": {
-        "wishamplify0db7d8fc": {
+        "wishamplifyf16ccedf": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -18,7 +18,7 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "storage": {
-        "s37fdd035f": {
+        "imagestorage": {
             "BucketName": "string",
             "Region": "string"
         }
